@@ -1,0 +1,12 @@
+==== Pythia ====
+Mask length 1: per character accuracy: 85.38%, per mask accuracy 85.38% (292/342)
+Mask length 2: per character accuracy: 77.42%, per mask accuracy 66.06% (218/330)
+Mask length 3: per character accuracy: 66.12%, per mask accuracy 45.33% (165/364)
+Mask length 4: per character accuracy: 59.05%, per mask accuracy 33.91% (118/348)
+Mask length 5: per character accuracy: 51.31%, per mask accuracy 24.06% (77/320)
+Mask length 6: per character accuracy: 46.15%, per mask accuracy 15.18% (46/303)
+Mask length 7: per character accuracy: 39.49%, per mask accuracy 8.03% (29/361)
+Mask length 8: per character accuracy: 37.62%, per mask accuracy 7.41% (24/324)
+Mask length 9: per character accuracy: 36.33%, per mask accuracy 4.28% (13/304)
+Pythia sentences average per character accuracy: 47.25%
+Pythia sentences average per mask accuracy: 32.78%

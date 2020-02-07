@@ -1,0 +1,45 @@
+==== Character gaps ====
+1 char gaps: accuracy per character 95.79%, accuracy per sequence 95.80%
+2 char gaps: accuracy per character 93.34%, accuracy per sequence 91.30%
+3 char gaps: accuracy per character 88.68%, accuracy per sequence 83.50%
+4 char gaps: accuracy per character 81.72%, accuracy per sequence 70.40%
+5 char gaps: accuracy per character 75.52%, accuracy per sequence 61.90%
+6 char gaps: accuracy per character 70.65%, accuracy per sequence 52.80%
+7 char gaps: accuracy per character 63.13%, accuracy per sequence 42.80%
+8 char gaps: accuracy per character 57.10%, accuracy per sequence 32.70%
+9 char gaps: accuracy per character 50.89%, accuracy per sequence 24.20%
+10 char gaps: accuracy per character 45.61%, accuracy per sequence 18.40%
+Character gaps average per character accuracy: 72.24%
+Character gaps average per mask accuracy: 57.38%
+==== Brackets ====
+Mask length 1: per character accuracy: 80.52%, per mask accuracy 80.52% (186/231)
+Mask length 2: per character accuracy: 64.52%, per mask accuracy 61.83% (149/241)
+Mask length 3: per character accuracy: 55.05%, per mask accuracy 50.82% (124/244)
+Mask length 4: per character accuracy: 39.29%, per mask accuracy 30.61% (30/98)
+Mask length 5: per character accuracy: 43.66%, per mask accuracy 28.05% (23/82)
+Mask length 6: per character accuracy: 23.23%, per mask accuracy 10.61% (7/66)
+Mask length 7: per character accuracy: 26.10%, per mask accuracy 9.62% (5/52)
+Mask length 8: per character accuracy: 27.14%, per mask accuracy 11.43% (4/35)
+Mask length 9: per character accuracy: 16.67%, per mask accuracy 0.00% (0/32)
+Mask length 10: per character accuracy: 10.71%, per mask accuracy 0.00% (0/28)
+Mask length 11: per character accuracy: 27.27%, per mask accuracy 14.29% (2/14)
+Mask length 12: per character accuracy: 11.74%, per mask accuracy 0.00% (0/22)
+Mask length 13: per character accuracy: 11.54%, per mask accuracy 0.00% (0/16)
+Mask length 14: per character accuracy: 10.71%, per mask accuracy 0.00% (0/6)
+Mask length 15: per character accuracy: 16.19%, per mask accuracy 0.00% (0/7)
+Mask length 16: per character accuracy: 20.54%, per mask accuracy 0.00% (0/7)
+Mask length 17: per character accuracy: 3.68%, per mask accuracy 0.00% (0/8)
+Mask length 18: per character accuracy: 2.78%, per mask accuracy 0.00% (0/4)
+Mask length 19: per character accuracy: 15.79%, per mask accuracy 0.00% (0/4)
+Mask length 20: per character accuracy: 18.33%, per mask accuracy 0.00% (0/3)
+Mask length 21: per character accuracy: 22.86%, per mask accuracy 0.00% (0/5)
+Mask length 22: per character accuracy: 4.55%, per mask accuracy 0.00% (0/2)
+Mask length 23: per character accuracy: 13.04%, per mask accuracy 0.00% (0/1)
+Mask length 24: per character accuracy: 0.00%, per mask accuracy 0.00% (0/1)
+Mask length 25: per character accuracy: 6.00%, per mask accuracy 0.00% (0/2)
+Mask length 26: per character accuracy: 2.56%, per mask accuracy 0.00% (0/3)
+Mask length 27: per character accuracy: 3.70%, per mask accuracy 0.00% (0/1)
+Mask length 28: per character accuracy: 14.29%, per mask accuracy 0.00% (0/1)
+Mask length 29: per character accuracy: 3.45%, per mask accuracy 0.00% (0/1)
+Bracketed sentences average per character accuracy: 32.35%
+Bracketed sentences average per mask accuracy: 43.55%
