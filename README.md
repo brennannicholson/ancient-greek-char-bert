@@ -63,6 +63,12 @@ cd char_bert
 pip3 install -e ./
 ```
 
+Download the models:
+```
+cd ..
+./download_models.sh
+```
+
 Now everything should be ready.
 
 ## Use
