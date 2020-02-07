@@ -51,7 +51,7 @@ cd greek_data_prep
 python3 prepare_dataset.py
 ```
 
-Once that's done of while it going on (don't forget to activate the virtualenv if you open a new terminal window) setup the FARM repo:
+Once that's done or while it going on (don't forget to activate the virtualenv if you open a new terminal window) setup the FARM repo:
 ```
 cd ../..
 ./setup_farm.sh
