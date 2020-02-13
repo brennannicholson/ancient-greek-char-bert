@@ -8,6 +8,8 @@ The code was developed as part of a Bachelor thesis at the University of Leipzig
 
 Note that while a GPU isn't require to use the models (or train new ones) everything will run very slowly if a GPU isn't available. 
 
+The models mentioned above are not directly included in the repo (they are too large) but are being hosted by [Deepset](https://deepset.ai/) and are downloaded as part of the setup process detailed below.
+
 ## Structure
 
 The repository has three main parts:
