@@ -1,4 +1,4 @@
-from greek_data_prep.clean_data import clean_tokens, clean_texts, CHARS_TO_REPLACE, CHARS_TO_REMOVE, parse_xml
+from data_prep.greek_data_prep.clean_data import clean_tokens, clean_texts, CHARS_TO_REPLACE, CHARS_TO_REMOVE, parse_xml
 
 def test_clean_tokens():
     # it should not remove tokens consisting only of greek chars

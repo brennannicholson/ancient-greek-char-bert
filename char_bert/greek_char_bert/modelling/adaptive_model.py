@@ -1,6 +1,6 @@
 from farm.modeling.adaptive_model import AdaptiveModel
-from greek_char_bert.modelling.language_model import PretrainingBERT
-from greek_char_bert.modelling.prediction_head import CharMLMHead
+from char_bert.greek_char_bert.modelling.language_model import PretrainingBERT
+from char_bert.greek_char_bert.modelling.prediction_head import CharMLMHead
 
 
 class CharMLMAdaptiveModel(AdaptiveModel):

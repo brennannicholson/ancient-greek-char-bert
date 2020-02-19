@@ -1,5 +1,5 @@
 """Evaluate a model using several different datasets and produce a simple accuracy report. Accuracy is reported per mask length and both the per character accuracy and the per sequence (or per mask) accuracy are reported. Two types of evaluation data are supported, tsv files with two fields (masked sentences, answers) and with three fields (maksed sentences, original sentences, answers.). The files is currently set up to evaluate on two dataset, char-gaps, brackets and pythia. Note that the decoding style has to be changed manually."""
-from greek_char_bert.predict import MLMPredicter, sentences_to_dicts
+from char_bert.greek_char_bert.predict import MLMPredicter, sentences_to_dicts
 import numpy as np
 import re
 import random as rn

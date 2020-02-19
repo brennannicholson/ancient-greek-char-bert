@@ -1,5 +1,5 @@
 """Splits the sentence tokenized data into train, dev and test sets. This script shuffles the sentences. As a result the dataset created this way can't be used for next sentence prediction."""
-from greek_data_prep.utils import write_to_file
+from data_prep.greek_data_prep.utils import write_to_file
 import random as rn
 import math
 

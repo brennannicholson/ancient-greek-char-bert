@@ -1,6 +1,6 @@
 """Loads and uses a custom trained Punkt tokenizer. The tokenizer has been trained on the Ancient_Greek_ML dataset using the NLTK's Punkt implementation (https://www.nltk.org/_modules/nltk/tokenize/punkt.html)."""
 from nltk.tokenize.punkt import PunktSentenceTokenizer
-from greek_data_prep.utils import write_to_file
+from data_prep.greek_data_prep.utils import write_to_file
 import pickle
 import re
 

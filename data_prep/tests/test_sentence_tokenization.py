@@ -1,4 +1,4 @@
-from greek_data_prep.sentence_tokenization import my_split
+from data_prep.greek_data_prep.sentence_tokenization import my_split
 
 def test_my_split():
     # it should correctly tokenize strings with intermediate semicola

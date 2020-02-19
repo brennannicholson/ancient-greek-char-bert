@@ -1,12 +1,12 @@
 """Trains a CharMLM from scratch or finetunes an existing model. Can also be used to resume training on the same datasest."""
-from greek_char_bert.data_handler.tokenization import CharMLMTokenizer
-from greek_char_bert.data_handler.processor import CharMLMProcessor
+from char_bert.greek_char_bert.data_handler.tokenization import CharMLMTokenizer
+from char_bert.greek_char_bert.data_handler.processor import CharMLMProcessor
 from farm.data_handler.data_silo import DataSilo
 from farm.modeling.language_model import BertModel
 from farm.eval import Evaluator
-from greek_char_bert.modelling.language_model import PretrainingBERT
-from greek_char_bert.modelling.prediction_head import CharMLMHead
-from greek_char_bert.modelling.adaptive_model import CharMLMAdaptiveModel
+from char_bert.greek_char_bert.modelling.language_model import PretrainingBERT
+from char_bert.greek_char_bert.modelling.prediction_head import CharMLMHead
+from char_bert.greek_char_bert.modelling.adaptive_model import CharMLMAdaptiveModel
 from farm.experiment import initialize_optimizer
 from farm.train import Trainer
 from pytorch_transformers.modeling_bert import BertConfig

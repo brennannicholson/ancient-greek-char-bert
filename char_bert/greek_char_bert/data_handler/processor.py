@@ -5,17 +5,17 @@ import logging
 
 from farm.data_handler.samples import Sample
 from farm.modeling.tokenization import tokenize_with_metadata
-from greek_char_bert.data_handler.input_features import (
+from char_bert.greek_char_bert.data_handler.input_features import (
     samples_to_features_bert_char_mlm,
     premasked_samples_to_features_bert_char_mlm,
     premasked_samples_with_answers_to_features_bert_char_mlm,
 )
-from greek_char_bert.data_handler.samples import (
+from char_bert.greek_char_bert.data_handler.samples import (
     create_char_mlm_prediction_samples_sentence_pairs,
     create_samples_sentence_pairs_using_placeholder,
 )
-from greek_char_bert.data_handler.utils import read_docs_from_txt
-from greek_char_bert.data_handler.tokenization import CharMLMTokenizer
+from char_bert.greek_char_bert.data_handler.utils import read_docs_from_txt
+from char_bert.greek_char_bert.data_handler.tokenization import CharMLMTokenizer
 
 logger = logging.getLogger(__name__)
 

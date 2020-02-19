@@ -1,9 +1,10 @@
 import os
 
+
 from farm.infer import Inferencer
 from farm.utils import initialize_device_settings
-from greek_char_bert.modelling.adaptive_model import CharMLMAdaptiveModel
-from greek_char_bert.data_handler.processor import CharMLMProcessor
+from char_bert.greek_char_bert.modelling.adaptive_model import CharMLMAdaptiveModel
+from char_bert.greek_char_bert.data_handler.processor import CharMLMProcessor
 
 
 class CharMLMInferencer(Inferencer):

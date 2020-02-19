@@ -1,5 +1,5 @@
 """Filters certain out of the Ancient_Greek_ML dataset. The first step in prepare the Ancient_Greek_ML dataset for use with the Ancient Greek character-level BERT."""
-from greek_data_prep.clean_data import write_to_file
+from data_prep.greek_data_prep.clean_data import write_to_file
 
 
 def filter_sentences():

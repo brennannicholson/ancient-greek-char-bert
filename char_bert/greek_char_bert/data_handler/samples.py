@@ -1,6 +1,6 @@
 from farm.data_handler.samples import Sample
-from greek_char_bert.data_handler.utils import get_sentence_pair_with_placeholder
-from greek_char_bert.data_handler.tokenization import tokenize_with_metadata
+from char_bert.greek_char_bert.data_handler.utils import get_sentence_pair_with_placeholder
+from char_bert.greek_char_bert.data_handler.tokenization import tokenize_with_metadata
 from tqdm import tqdm
 
 

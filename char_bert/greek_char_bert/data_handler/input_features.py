@@ -1,6 +1,6 @@
 """Modified utility functions for use with the CharMLM."""
 from farm.data_handler.utils import truncate_seq_pair
-from greek_char_bert.data_handler.utils import char_mlm_mask_random_words
+from char_bert.greek_char_bert.data_handler.utils import char_mlm_mask_random_words
 
 
 def remove_unknown_chars(tokens, tokenizer):

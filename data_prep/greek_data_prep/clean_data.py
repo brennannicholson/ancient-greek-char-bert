@@ -4,7 +4,7 @@ import os
 import re
 from cltk.corpus.utils.formatter import cltk_normalize
 from bs4 import BeautifulSoup
-from greek_data_prep.utils import write_to_file
+from data_prep.greek_data_prep.utils import write_to_file
 
 # exclude Bacchylides' Odes due to the fragmentary nature of the text
 BACHCHYLIDES_ODES = [
