@@ -78,7 +78,8 @@ class MLMPredicter(CharMLMInferencer):
                 logits = self.model.forward(**batch)[0] # foward propagates a list of logits for each head. We only have one
 
                 preds = np.squeeze(torch.softmax(logits[:,position,:],dim=1).cpu().numpy())
-                preds_all.append(preds)
+                preds_log = np.log(preds + 1e-30) #add small value to prohibit log(0)
+                preds_all.append(preds_log)
 
         return preds_all
 
@@ -156,7 +157,7 @@ class MLMPredicter(CharMLMInferencer):
                 else:
                     preds = self.predict_positional_proba(dicts=new_dicts, position=pos_special_tokens)[0]
 
-                    p_combi = preds * p_vals[:,np.newaxis]
+                    p_combi = preds + p_vals[:,np.newaxis]
                     sorted = np.sort(p_combi.flatten())[::-1]
                     new_sentences = []
                     for k,s in enumerate(sorted[:beam_width]):

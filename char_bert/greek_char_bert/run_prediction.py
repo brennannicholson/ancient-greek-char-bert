@@ -61,7 +61,7 @@ def predict_from_file(path, model, decoding, align, step_len, beam_width=3):
         else:
             for texts,p_vals in result:
                 for i,t in enumerate(texts):
-                    print("Candidate %i with probability: %.5f || Text: %s" %(i,p_vals[i],t.replace("_", " ")))
+                    print("Candidate %i with log prob: %.5f || Text: %s" %(i,p_vals[i],t.replace("_", " ")))
                 # TODO bring together text that was splitted apart
                 # this seems quite complex.
                 # Hacky solution: compare the return p vals per splitted text
@@ -70,10 +70,11 @@ def predict_from_file(path, model, decoding, align, step_len, beam_width=3):
 if __name__ == "__main__":
     model_path = "models/greek_char_BERT"
     file = "data/prediction_test.txt"
+    #file = "data/PH2334_masked.txt"
     decoding = "beam" #"beam" "sequential"
     align = False
-    step_len = 64
+    step_len = 500
     beam_width = 10
     model = MLMPredicter.load(model_path, batch_size=32)
-
+    model.processor.max_seq_len = 512
     predict_from_file(file, model, decoding, align, step_len, beam_width)
