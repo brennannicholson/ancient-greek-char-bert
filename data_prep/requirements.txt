@@ -1,5 +1,5 @@
 beautifulsoup4==4.8.1
 cltk==0.1.112
 lxml==4.4.1
-nltk==3.4.5
+nltk==3.6.6
 pytest==5.2.2
